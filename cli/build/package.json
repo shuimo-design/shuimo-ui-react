@@ -1,0 +1,15 @@
+{
+  "name": "@shuimo-design/build",
+  "author": "阿怪 <higuaifan@higuaifan.com>",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsx build.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "vite-plugin-lightningcss": "^0.0.5"
+  }
+}

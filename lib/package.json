@@ -1,0 +1,32 @@
+{
+  "name": "shuimo-ui-react",
+  "version": "0.0.1",
+  "author": "阿怪 <higuaifan@higuaifan.com>",
+  "description": "一款粗暴的水墨风UI组件",
+  "type": "module",
+  "license": "MIT",
+  "types": "./types/shuimo-ui-react.d.mts",
+  "main": "./dist/umd/shuimo-ui-react.umd.js",
+  "module": "./dist/es/shuimo-ui-react.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./types/shuimo-ui-react.d.mts",
+        "default": "./dist/es/shuimo-ui-react.mjs"
+      },
+      "require": {
+        "types": "./types/shuimo-ui-react.d.cts",
+        "default": "./dist/cjs/shuimo-ui-react.cjs"
+      }
+    },
+    "./*": "./*"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/shuimo-design/shuimo-ui-react/issues"
+  },
+  "homepage": "https://shuimo.design",
+  "dependencies": {
+    "clsx": "^2.1.0"
+  }
+}

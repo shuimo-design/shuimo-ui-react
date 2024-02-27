@@ -1,0 +1,13 @@
+{
+  "name": "@shuimo-design/playground",
+  "author": "阿怪 <higuaifan@higuaifan.com>",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "shuimo-ui-react": "workspace:*"
+  },
+  "private": true
+}

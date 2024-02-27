@@ -1,0 +1,49 @@
+@import "assets/ricePaperShadow.css";
+
+:root {
+  /*
+  react vite would not rewrite public path
+  --m-rp-cold: url(../../../public/rice-paper/rice-paper.webp);
+  --m-rp-warm: url(../../../public/rice-paper/rice-paper-warm.webp);
+  */
+  --m-rp-cold: url(./assets/img/rice-paper/rice-paper.webp);
+  --m-rp-warm: url(./assets/img/rice-paper/rice-paper-warm.webp);
+  --m-rp-light: var(--m-rp-cold);
+  --m-rp-dark: var(--m-rp-warm);
+  --m-rp-light-opacity: 0.8;
+  --m-rp-dark-opacity: 0.5;
+  --m-rp-mountains-opacity: 1;
+  --m-rp-w: 100%;
+  --m-rp-h: 100%;
+  --m-rp-bg: rgba(10, 87, 64, 0.2);
+  --m-rp-hover-bg-i: var(--m-rp-light);
+  --m-rp-hover-opacity: var(--m-rp-dark-opacity);
+
+  --m-rp-mlb: url(./assets/img/green/l-base.webp);
+  --m-rp-lm: url(./assets/img/green/l-mid.webp);
+  --m-rp-lf: url(./assets/img/green/l-front.webp);
+  --m-rp-lf2: url(./assets/img/green/l-front-2.webp);
+  --m-rp-rb: url(./assets/img/green/r-base.webp);
+  --m-rp-rm: url(./assets/img/green/r-mid.webp);
+  --m-rp-rf: url(./assets/img/green/r-front.webp);
+  --m-rp-rf2: url(./assets/img/green/r-front-2.webp);
+}
+
+
+html[dark] {
+  --m-rp-bg: black;
+  --m-rp-light: var(--m-rp-warm);
+  --m-rp-hover-bg-i: var(--m-rp-dark);
+  --m-rp-hover-opacity: var(--m-rp-dark-opacity);
+
+
+  --m-rp-mlb: url(./assets/img/dark/l-base.webp);
+  --m-rp-lm: url(./assets/img/dark/l-mid.webp);
+  --m-rp-lf: url(./assets/img/dark/l-front.webp);
+  --m-rp-lf2: url(./assets/img/dark/l-front-2.webp);
+  --m-rp-rb: url(./assets/img/dark/r-base.webp);
+  --m-rp-rm: url(./assets/img/dark/r-mid.webp);
+  --m-rp-rf: url(./assets/img/dark/r-front.webp);
+  --m-rp-rf2: url(./assets/img/dark/r-front-2.webp);
+
+}

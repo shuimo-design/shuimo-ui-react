@@ -1,0 +1,9 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.shuimo-ui-react-doc {
+  --m-rp-w: 100vw;
+  --m-rp-h: 100vh;
+}

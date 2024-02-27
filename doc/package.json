@@ -1,0 +1,19 @@
+{
+  "name": "@shuimo-design/doc",
+  "author": "阿怪",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "private": true,
+  "dependencies": {
+    "next": "^14.1.0",
+    "shuimo-ui-react": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.20"
+  }
+}

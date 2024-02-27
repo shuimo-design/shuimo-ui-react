@@ -1,0 +1,11 @@
+@import "shuimo-ui-react/assets/style/global.css";
+
+#root {
+  margin: 0 auto;
+}
+
+
+.playground {
+  --m-rp-w: 100vw;
+  --m-rp-h: 100vh;
+}

@@ -1,0 +1,15 @@
+[class^='m-'], .m-cursor {
+  cursor: var(--m-cursor-auto);
+
+  &:disabled {
+    cursor: var(--m-cursor-disabled);
+  }
+}
+
+.m-cursor-pointer {
+  cursor: var(--m-cursor-pointer);
+}
+
+.m-cursor-disabled {
+  cursor: var(--m-cursor-disabled);
+}
