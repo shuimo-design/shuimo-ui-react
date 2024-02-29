@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "doc:dev": "next dev",
+    "doc:build": "next build",
+    "doc:start": "next start"
   },
   "private": true,
   "dependencies": {
