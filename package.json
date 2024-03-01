@@ -7,16 +7,23 @@
     "dev": "pnpm -C playground run dev",
     "build": "pnpm -C cli/build run build",
     "doc:dev": "pnpm -C doc run doc:dev",
-    "doc:build": "pnpm -C doc run build"
+    "doc:build": "pnpm -C doc run build",
+    "clean:node_modules": "rimraf node_modules **/*/node_modules",
+    "re-install": "pnpm run clean:node_modules && pnpm i",
+    "lint": "jhlint",
+    "prepare": "jhlint install"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@janghood/config": "0.0.1-5",
+    "@janghood/lint": "0.0.5",
     "@types/react": "^18.2.59",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react-swc": "^3.6.0",
+    "rimraf": "^5.0.5",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
   }
