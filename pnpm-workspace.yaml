@@ -3,4 +3,4 @@ packages:
   - 'doc/**'
   - 'playground/**'
   - 'cli/**'
-  - '!cli/build/**'
+  # - '!cli/build/**'
