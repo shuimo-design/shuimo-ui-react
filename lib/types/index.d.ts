@@ -10,4 +10,4 @@ import React from 'react';
 
 
 export declare type Slot = { children?: React.ReactNode | React.ReactNode[] };
-export declare type MC = {className?:string}; // MC means shuimo -> M component -> C
+export declare type MC = { className?: string }; // MC means shuimo -> M component -> C

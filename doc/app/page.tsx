@@ -22,5 +22,5 @@ export default function Page() {
       <MButton link>link</MButton>
       <MButton text="text！"></MButton>
     </>
-  )
+  );
 }
