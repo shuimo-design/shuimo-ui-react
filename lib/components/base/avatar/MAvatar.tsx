@@ -4,23 +4,21 @@
  * @date 2024/03/03 00:40
  * @version v1.0.0
  *
- * 江湖的业务千篇一律，复杂的代码好几百行。
+ *
  */
 
-import React from 'react';
 import clsx from 'clsx';
 import { AvatarProps } from './index';
-import { MC, Slot } from '../../../types';
+import { MC } from '../../../types';
 import './avatar.css';
 
-export default function MAvatar(props: AvatarProps & Slot & MC) {
+export default function MAvatar(props: AvatarProps & MC) {
 
-  const avatarClass = clsx('m-avatar', `m-avatar-${props.variant}`, `m-avatar-${props.size}`);
-
-  return React.createElement('div', {
-    className: avatarClass,
-  },
-  React.createElement('img', { src: props.img, alt: '' }),
-  React.createElement('div', { className: 'm-avatar-mask' }),
+  const avatarClass = clsx([props.className, 'm-avatar', `m-avatar-${props.variant}`, `m-avatar-${props.size}`]);
+  return (
+    <div className={avatarClass}>
+      <img src={props.img} alt=""/>
+      <div className="m-avatar-mask"/>
+    </div>
   );
 }
