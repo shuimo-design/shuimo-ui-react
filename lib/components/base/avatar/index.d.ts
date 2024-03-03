@@ -12,25 +12,25 @@
  */
 
 export declare type AvatarProps = {
-    /**
+  /**
      * @description avatar variant
      *              头像的形状
      * @type string
      * @default circle
      */
-    variant?: 'circle' | 'square';
-    /**
+  variant?: 'circle' | 'square';
+  /**
      * @description avatar size
      *             头像的大小
      * @type string
      * @default default
      */
-    size?: 'large' | 'default' | 'small';
-    /**
+  size?: 'large' | 'default' | 'small';
+  /**
      * @description img url
      *             头像图片地址
      * @type string
      * @default default
      */
-    img?: string;
+  img?: string;
 };

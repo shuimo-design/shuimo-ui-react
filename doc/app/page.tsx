@@ -21,8 +21,8 @@ export default function Page() {
       <MButton type="warning">warning</MButton>
       <MButton link>link</MButton>
       <MButton text="text！"></MButton>
-      <MAvatar size='large' variant='square' img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png" />
-      <MAvatar size='small' variant='circle' img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png" />
+      <MAvatar size="large" variant="square" img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png"/>
+      <MAvatar size="small" variant="circle" img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png"/>
     </>
   );
 }

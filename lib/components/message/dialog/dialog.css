@@ -1,0 +1,16 @@
+.m-dialog {
+    width: var(--m-dialog-w);
+    height: var(--m-dialog-h);
+    padding: calc(var(--m-dialog-h) * 140 / 698) calc(var(--m-dialog-w) * 50 / 996) 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(./assets/bg.webp) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.m-dialog-wrapper {
+    display: inline-block;
+}
