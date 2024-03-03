@@ -91,5 +91,5 @@ export default function MRicePaperMountain() {
         <div className="m-r-front-2 m-m-reflect" ref={mRFront2Ref}/>
       </div>
     </div>
-  )
+  );
 }

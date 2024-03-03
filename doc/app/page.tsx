@@ -24,5 +24,5 @@ export default function Page() {
       <MAvatar size='large' variant='square' img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png" />
       <MAvatar size='small' variant='circle' img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png" />
     </>
-  )
+  );
 }
