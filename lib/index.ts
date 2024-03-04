@@ -12,3 +12,7 @@ export { default as MButton } from './components/base/button/MButton';
 
 
 export { default as MRicePaper } from './components/template/ricePaper/MRicePaper.tsx';
+
+
+export { default as MAvatar } from './components/base/avatar/MAvatar.tsx';
+

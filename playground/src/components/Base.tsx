@@ -6,7 +6,7 @@
  *
  * 江湖的业务千篇一律，复杂的代码好几百行。
  */
-import { MButton } from 'shuimo-ui-react/index.ts';
+import { MAvatar, MButton } from 'shuimo-ui-react/index.ts';
 
 
 function Button() {
@@ -31,11 +31,23 @@ function Button() {
   );
 }
 
+function Avatar() {
+  return (
+    <>
+      <MAvatar size='large' variant='square' img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png" />
+      <MAvatar size='small' variant='circle' img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png" />
+    </>
+  )
+}
+
 
 export default function Base() {
 
 
   return (
-    <Button/>
+    <>
+      <Button />
+      <Avatar />
+    </>
   );
 }
