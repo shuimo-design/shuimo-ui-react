@@ -6,7 +6,7 @@
  *
  * 江湖的业务千篇一律，复杂的代码好几百行。
  */
-import { MAvatar, MButton } from 'shuimo-ui-react/index.ts';
+import { MAvatar, MButton, MTag } from 'shuimo-ui-react/index.ts';
 
 
 function Button() {
@@ -40,6 +40,19 @@ function Avatar() {
   )
 }
 
+function Tag() {
+  return (
+    <>
+      <MTag>你好</MTag>
+      <MTag type='primary'>你好</MTag>
+      <MTag type='confirm'>你好</MTag>
+      <MTag type='error'>你好</MTag>
+      <MTag type='warning'>你好</MTag>
+      <MTag style={{ '--m-tag-bg': '#951c48' }}>菜头紫</MTag>
+    </>
+  )
+}
+
 
 export default function Base() {
 
@@ -48,6 +61,7 @@ export default function Base() {
     <>
       <Button />
       <Avatar />
+      <Tag />
     </>
   );
 }
