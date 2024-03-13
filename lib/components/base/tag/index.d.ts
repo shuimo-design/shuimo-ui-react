@@ -14,18 +14,18 @@
  */
 
 export declare type TagProps = {
-    /**
+  /**
      * @description button type 按钮类型
      * @type string
      * @default default
      * @enum default|primary|error|confirm|warning
      */
-    type?: 'default' | 'primary' | 'error' | 'confirm' | 'warning',
+  type?: 'default' | 'primary' | 'error' | 'confirm' | 'warning',
 
-    /**
+  /**
      * @description 自定义样式
      * @type React.CSSProperties
      * @default
      */
-    style?: React.CSSProperties & { [key: string]: any };
-  };
+  style?: React.CSSProperties & { [key: string]: any };
+};

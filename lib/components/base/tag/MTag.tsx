@@ -13,14 +13,14 @@ import clsx from 'clsx';
 
 
 export default function MTag(props: TagProps & MC & Slot) {
-    const tagClass = clsx([props.className, 'm-tag', `m-tag-${props.type ?? 'default'}`])
-    return (
-        <div className={tagClass} style={props.style}>
-            <div className='m-tag-left' />
-            <div className='m-tag-main'>
-                {props.children ?? ''}
-            </div>
-            <div className='m-tag-right' />
-        </div>
-    )
+  const tagClass = clsx([props.className, 'm-tag', `m-tag-${props.type ?? 'default'}`]);
+  return (
+    <div className={tagClass} style={props.style}>
+      <div className="m-tag-left"/>
+      <div className="m-tag-main">
+        {props.children ?? ''}
+      </div>
+      <div className="m-tag-right"/>
+    </div>
+  );
 }

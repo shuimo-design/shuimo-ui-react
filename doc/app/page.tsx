@@ -24,10 +24,10 @@ export default function Page() {
       <MAvatar size="large" variant="square" img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png"/>
       <MAvatar size="small" variant="circle" img="https://muzych.oss-cn-shenzhen.aliyuncs.com/img/20240303104509.png"/>
       <MTag>你好</MTag>
-      <MTag type='primary'>你好</MTag>
-      <MTag type='confirm'>你好</MTag>
-      <MTag type='error'>你好</MTag>
-      <MTag type='warning'>你好</MTag>
+      <MTag type="primary">你好</MTag>
+      <MTag type="confirm">你好</MTag>
+      <MTag type="error">你好</MTag>
+      <MTag type="warning">你好</MTag>
       <MTag style={{ '--m-tag-bg': '#951c48' }}>菜头紫</MTag>
     </>
   );
