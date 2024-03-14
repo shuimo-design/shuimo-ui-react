@@ -9,6 +9,7 @@
   "main": "./dist/umd/shuimo-ui-react.umd.js",
   "module": "./dist/es/shuimo-ui-react.mjs",
   "exports": {
+    "./global.css": "./dist/es/assets/style/global.css",
     ".": {
       "import": {
         "types": "./types/shuimo-ui-react.d.mts",
