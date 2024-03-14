@@ -16,3 +16,5 @@ export { default as MRicePaper } from './components/template/ricePaper/MRicePape
 
 export { default as MAvatar } from './components/base/avatar/MAvatar.tsx';
 
+
+export { default as MTag } from './components/base/tag/MTag.tsx';
