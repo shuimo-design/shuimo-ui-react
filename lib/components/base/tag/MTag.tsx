@@ -4,7 +4,6 @@
  * @date 2024/03/13 15:41
  * @version v1.0.0
  */
-import React from 'react';
 import './tag.css';
 import { TagProps } from './index';
 import { MC, Slot } from '../../../types';
