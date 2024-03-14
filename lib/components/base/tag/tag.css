@@ -2,11 +2,6 @@
     --m-tag-h: 45px;
     --m-tag-w-min: 80px;
     --m-tag-border-w: calc(var(--m-tag-h) / 4.5);
-    --m-color-text-dark: #0F1423;
-    --m-color-blue: #1661AB;
-    --m-color-error: #861717;
-    --m-color-success: #4A9992;
-    --m-color-warn: #E8B004;
   }
   
   .m-tag {
