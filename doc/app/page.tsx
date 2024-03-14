@@ -8,6 +8,7 @@
  * 江湖的业务千篇一律，复杂的代码好几百行。
  */
 import { MButton, MAvatar, MTag } from 'shuimo-ui-react';
+import 'shuimo-ui-react/global.css';
 
 
 export default function Page() {
