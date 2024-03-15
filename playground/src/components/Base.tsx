@@ -6,8 +6,8 @@
  *
  * 江湖的业务千篇一律，复杂的代码好几百行。
  */
-import { MAvatar, MButton, MTag } from 'shuimo-ui-react/index.ts';
-
+import { MAvatar, MButton, MTag, MProgress } from 'shuimo-ui-react/index.ts';
+import { useState, useEffect } from 'react';
 
 function Button() {
 
@@ -53,6 +53,33 @@ function Tag() {
   )
 }
 
+function Progress() {
+  const [loopPer, setLoopPer] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (loopPer < 1000) {
+        setLoopPer(prevLoopPer => prevLoopPer + 1);
+      } else {
+        setLoopPer(0);
+      }
+    }, 16);
+    return () => clearInterval(interval);
+  })
+
+  return (
+    <MProgress
+      value={loopPer}
+      max={1000}
+      height={18}
+      showInfo={true}
+    >
+      {Math.ceil(loopPer / 10)}%
+    </MProgress>
+  )
+}
+
+
 
 export default function Base() {
 
@@ -62,6 +89,7 @@ export default function Base() {
       <Button />
       <Avatar />
       <Tag />
+      <Progress />
     </>
   );
 }

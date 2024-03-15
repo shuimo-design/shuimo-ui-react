@@ -8,7 +8,34 @@
  * 江湖的业务千篇一律，复杂的代码好几百行。
  */
 import 'shuimo-ui-react/global.css';
-import { MButton, MAvatar, MTag } from 'shuimo-ui-react';
+import { MButton, MAvatar, MTag, MProgress } from 'shuimo-ui-react';
+import { useState, useEffect } from 'react';
+
+function Progress() {
+  const [loopPer, setLoopPer] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (loopPer < 1000) {
+        setLoopPer(prevLoopPer => prevLoopPer + 1);
+      } else {
+        setLoopPer(0);
+      }
+    }, 16);
+    return () => clearInterval(interval);
+  })
+
+  return (
+    <MProgress
+      value={loopPer}
+      max={1000}
+      height={18}
+      showInfo={true}
+    >
+      {Math.ceil(loopPer / 10)}%
+    </MProgress>
+  )
+}
 
 
 export default function Page() {
@@ -30,6 +57,7 @@ export default function Page() {
       <MTag type="error">你好</MTag>
       <MTag type="warning">你好</MTag>
       <MTag style={{ '--m-tag-bg': '#951c48' }}>菜头紫</MTag>
+      <Progress />
     </>
   );
 }

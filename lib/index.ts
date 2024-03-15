@@ -18,3 +18,6 @@ export { default as MAvatar } from './components/base/avatar/MAvatar.tsx';
 
 
 export { default as MTag } from './components/base/tag/MTag.tsx';
+
+
+export { default as MProgress } from './components/base/progress/MProgress.tsx';
