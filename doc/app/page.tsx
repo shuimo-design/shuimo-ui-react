@@ -23,7 +23,7 @@ function Progress() {
       }
     }, 16);
     return () => clearInterval(interval);
-  })
+  });
 
   return (
     <MProgress
@@ -34,7 +34,7 @@ function Progress() {
     >
       {Math.ceil(loopPer / 10)}%
     </MProgress>
-  )
+  );
 }
 
 
@@ -57,7 +57,7 @@ export default function Page() {
       <MTag type="error">你好</MTag>
       <MTag type="warning">你好</MTag>
       <MTag style={{ '--m-tag-bg': '#951c48' }}>菜头紫</MTag>
-      <Progress />
+      <Progress/>
     </>
   );
 }

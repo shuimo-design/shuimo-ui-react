@@ -13,53 +13,53 @@
  */
 
 export declare type ProgressProps = {
-    /**
+  /**
      * @description progress bar width
      *              进度条的宽度
      * @type number
      * @default 399
      */
-    width?: number,
-    /**
+  width?: number,
+  /**
      * @description progress bar height
      *              进度条的高度
      * @type number
      * @default 26.547
      */
-    height?: number,
-    /**
+  height?: number,
+  /**
      * @description progress value
      *              进度条的值
      * @type number
      * @default 0
      */
-    value?: number,
-    /**
+  value?: number,
+  /**
      * @description progress value max
      *              进度条最大值
      * @type number
      * @default 100
      */
-    max?: number,
-    /**
+  max?: number,
+  /**
      * @description display value
      *              是否显示进度值
      * @type boolean
      * @default false
      */
-    showInfo?: boolean,
-    /**
+  showInfo?: boolean,
+  /**
      * @description info width
      *              进度值的宽度
      * @type number
      * @default 44
      */
-    infoWidth?: number,
-    /**
+  infoWidth?: number,
+  /**
      * @description leaf height
      *              叶子的高度
      * @type number
      * @default 28
      */
-    leafHeight?: number
-  };
+  leafHeight?: number
+};
